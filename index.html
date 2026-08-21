@@ -3,173 +3,370 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — R2O Client App</title>
+<title>Data Privacy Policy Statement — Rent 2 Own</title>
 <style>
+  :root {
+    --primary: #00B4AA;
+    --primary-dark: #008B7A;
+    --accent: #1B4FBF;
+    --background: #F4F7FA;
+    --surface: #FFFFFF;
+    --text-primary: #1A2E42;
+    --text-secondary: #6B7A8D;
+    --text-muted: #A8B8C8;
+    --border: #E2E8F0;
+  }
+  * { box-sizing: border-box; }
   body {
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--background);
+    color: var(--text-primary);
     line-height: 1.65;
-    color: #1A2E42;
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 40px 20px 80px;
-    background: #F4F7FA;
   }
-  .card {
-    background: #ffffff;
-    border-radius: 16px;
-    padding: 40px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  }
-  h1 {
-    font-size: 26px;
-    color: #008F87;
-    margin-bottom: 4px;
-  }
-  .updated {
-    color: #6B7A8D;
-    font-size: 13px;
-    margin-bottom: 32px;
-  }
-  h2 {
-    font-size: 18px;
-    color: #1A2E42;
-    margin-top: 36px;
-    border-bottom: 2px solid #E2E8F0;
-    padding-bottom: 6px;
-  }
-  h3 {
-    font-size: 15px;
-    color: #008F87;
-    margin-top: 20px;
-  }
-  p, li {
-    font-size: 14.5px;
-    color: #33445A;
-  }
-  ul {
-    padding-left: 20px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 12px 0;
-    font-size: 13.5px;
-  }
-  th, td {
-    text-align: left;
-    padding: 8px 10px;
-    border: 1px solid #E2E8F0;
-    vertical-align: top;
-  }
-  th {
-    background: #F4F7FA;
-    color: #1A2E42;
-  }
-  a { color: #008F87; }
-  footer {
-    margin-top: 40px;
-    font-size: 12.5px;
-    color: #A8B8C8;
+  header {
+    background: linear-gradient(135deg, #1B335D, #173F67, #165772);
+    padding: 40px 20px 32px;
     text-align: center;
+    color: #fff;
   }
+  header img { height: 40px; margin-bottom: 16px; }
+  header h1 { margin: 0 0 6px; font-size: 22px; font-weight: 700; }
+  header p { margin: 0; font-size: 13px; color: rgba(255,255,255,0.75); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; }
+  .card {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 24px 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  .toc { font-size: 14px; }
+  .toc summary {
+    cursor: pointer; font-weight: 700; font-size: 15px; color: var(--primary-dark);
+    padding: 4px 0;
+  }
+  .toc ol { margin: 12px 0 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+  .toc li { margin-bottom: 6px; break-inside: avoid; }
+  .toc a { color: var(--text-secondary); text-decoration: none; font-size: 13.5px; }
+  .toc a:hover { color: var(--primary-dark); }
+  h2 {
+    font-size: 18px; color: var(--primary-dark); margin: 0 0 12px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--border);
+    scroll-margin-top: 16px;
+  }
+  h3 { font-size: 15px; color: var(--text-primary); margin: 18px 0 8px; }
+  p { font-size: 14.5px; color: var(--text-primary); margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { font-size: 14.5px; margin-bottom: 6px; }
+  .note {
+    background: rgba(0,180,170,0.07);
+    border: 1px solid rgba(0,180,170,0.25);
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0 0 16px;
+  }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+  @media (max-width: 520px) { .contact-grid { grid-template-columns: 1fr; } .toc ol { columns: 1; } }
+  .contact-item {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px;
+  }
+  .contact-item .label { font-size: 12.5px; color: var(--text-secondary); margin-bottom: 4px; }
+  .contact-item .value { font-size: 14px; font-weight: 700; color: var(--text-primary); }
+  .contact-item a { color: var(--primary-dark); text-decoration: none; word-break: break-word; }
+  footer { text-align: center; padding: 24px 20px 40px; font-size: 12px; color: var(--text-muted); }
+  .back-top { display: inline-block; margin-top: 8px; font-size: 12.5px; }
+  .back-top a { color: var(--primary-dark); text-decoration: none; }
 </style>
 </head>
 <body>
-<div class="card">
-  <h1>Privacy Policy — R2O Client App</h1>
-  <p class="updated">Last updated: July 29, 2026</p>
 
-  <p>This Privacy Policy explains how <strong>Rent 2 Own ("R2O", "we", "us", "our")</strong> collects,
-  uses, discloses, and protects information when you use the R2O Client App (the "App"), a hire-purchase
-  (rent-to-own) financing service available in Myanmar. By creating an account or using the App, you agree
-  to the collection and use of information in accordance with this policy.</p>
+<header>
+  <h1>Rent 2 Own Myanmar — Data Privacy Policy Statement</h1>
+  <p>Legal and ESG Department · Last updated: [CONFIRM DATE WITH LEGAL — see note below]</p>
+</header>
 
-  <h2>1. Information We Collect</h2>
+<div class="wrap">
 
-  <h3>1.1 Information you provide directly</h3>
-  <ul>
-    <li><strong>Identity information:</strong> full name, phone number, National Registration Card (NRC) number, and a photo/scan of your NRC card.</li>
-    <li><strong>Biometric-adjacent verification photo:</strong> a selfie photo taken during signup, used to verify your identity against your NRC record.</li>
-    <li><strong>Account security:</strong> a 6-digit PIN you create (stored in encrypted/hashed form — we never store your PIN in plain text).</li>
-    <li><strong>Contract &amp; financial information:</strong> details of your hire-purchase contract (asset financed, installment schedule, amounts due, payment history), and any support messages or feedback you send us (e.g. via chat or service ratings).</li>
-  </ul>
+  <div class="card toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#personal-financial">Personal and Financial Information</a></li>
+        <li><a href="#collection">Collection of Personal and Financial Information</a></li>
+        <li><a href="#electronic-collection">Electronic Collection</a></li>
+        <li><a href="#purposes">Purposes of Collection</a></li>
+        <li><a href="#disclosure">Disclosure of Information</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#credit-info">Credit-Related Information</a></li>
+        <li><a href="#credit-bodies">Credit Reporting Bodies</a></li>
+        <li><a href="#app-data">How Our Mobile App Collects Information</a></li>
+        <li><a href="#security">Security of Information</a></li>
+        <li><a href="#updating">Updating Your Information</a></li>
+        <li><a href="#access">Access and Correction</a></li>
+        <li><a href="#gov-id">Using Government Identifiers</a></li>
+        <li><a href="#anonymous">Business Without Identifying You</a></li>
+        <li><a href="#complaints">Complaints</a></li>
+        <li><a href="#further-info">Further Information</a></li>
+        <li><a href="#changes">Changes to This Policy</a></li>
+        <li><a href="#employee-action">Action Taken to Employees</a></li>
+        <li><a href="#contact">Contact Details</a></li>
+      </ol>
+    </details>
+  </div>
 
-  <h3>1.2 Information collected automatically</h3>
-  <ul>
-    <li><strong>Device information:</strong> device model, manufacturer, operating system and version, app version.</li>
-    <li><strong>Push notification token:</strong> a device token (via Firebase Cloud Messaging) used to deliver payment reminders and service notifications.</li>
-    <li><strong>Usage and log data:</strong> app interactions, crash logs, and IP address (collected automatically by our servers when the App communicates with our backend), used for security, fraud prevention, and troubleshooting.</li>
-  </ul>
+  <div class="card">
+    <h2 id="introduction">1. Introduction</h2>
+    <p>This policy applies to all dealings with, information of the client provided and transactions of the client enter with Rent 2 Own (Myanmar) Company Limited and associates (as such term is defined by the Myanmar Companies Law 2017) (collectively "R2O" and the "company").</p>
+    <p>The client agrees that R2O, acting individually or collectively, may perform all acts contemplated under this policy. The client agreement and acknowledgement of this policy forms a single agreement with, and is incorporated by reference into, all other agreements the client enters with R2O acting individually or collectively. R2O is committed to protecting the personal and financial information collected and held about the client.</p>
+    <p>R2O recognise that any personal and financial information collected about the client will only be collected, held, used or disclosed for the purposes R2O have collected it for or as allowed under the law (such as under the Anti-Money Laundering Law 2014 and Regulations, the Law Protecting the Privacy and Security of Citizens 2017 or the Financial Institutions Law 2016 and applicable Regulations). It is important to R2O that the client is confident that any personal and financial information R2O holds about the client will be treated in a way which ensures its protection.</p>
+  </div>
 
-  <h3>1.3 Information from payment transactions</h3>
-  <p>When you make a payment through the App, you are directed to a supported payment gateway
-  (AYA Pay, CTZPay, OK$, or Wave Money). We receive transaction confirmation details (amount, status,
-  reference number, timestamp) from these gateways to update your payment record. <strong>We do not
-  collect or store your payment gateway account credentials, PINs, or full card/account numbers</strong> —
-  these are handled directly and securely by the respective payment provider.</p>
+  <div class="card">
+    <h2 id="personal-financial">2. Personal and Financial Information</h2>
+    <p>When R2O refers to personal and financial information, R2O means information or an opinion about an identifiable individual, or an individual who is reasonably identifiable. This information may include information or an opinion about the client.</p>
+    <p>The personal and financial information R2O holds about the client may also include credit-related information.</p>
+    <p>Credit-related information means:</p>
+    <ul>
+      <li>Credit information, which is information which includes the client identity; the type, terms and maximum amount of credit provided to the client, including when that credit was provided and when it was repaid; repayment history information (information about whether you meet your repayments on time); default information (including overdue payments); payment information; new arrangement information; details of any serious credit infringements; court proceedings information; personal insolvency information and publicly available information; and</li>
+      <li>Credit eligibility information, which is credit reporting information supplied to R2O by a credit reporting body, and any information that derives from it.</li>
+    </ul>
+  </div>
 
-  <h2>2. How We Use Your Information</h2>
-  <ul>
-    <li>To create and manage your account, and verify your identity during signup.</li>
-    <li>To administer your hire-purchase contract, process payments, and maintain accurate payment records.</li>
-    <li>To send you service-related notifications (payment reminders, receipts, contract updates, promotional offers where applicable).</li>
-    <li>To provide customer support, including through our in-app AI assistant and, when needed, human support agents.</li>
-    <li>To detect, investigate, and prevent fraud, unauthorized access, and other illegal activity.</li>
-    <li>To comply with applicable legal and regulatory obligations.</li>
-    <li>To evaluate your eligibility for optional programs, such as our Loyalty rewards program, based on your payment record.</li>
-  </ul>
+  <div class="card">
+    <h2 id="collection">3. Collection of Personal and Financial Information</h2>
+    <p>The kinds of personal information the client may collect and hold about the client may include the client name, date of birth, address, email address, marital status, number of dependants, occupation, any current loan information, expense details, income details, employer information and any other information R2O made need to identify the client such as the client's passport, driver's licence or NRC number.</p>
+    <p>The main consequences of R2O not collecting personal information are an inability or delay in being able to identify the client, contact or provide services to the client.</p>
+    <p>R2O will generally not ask the client to disclose sensitive information, such as the client's bank account and/or password, religion or health related information. However, sometimes R2O may be required to collect or hold sensitive information about the client or the client may provide unsolicited sensitive information (e.g. if the client volunteers information regarding your health). In those circumstances, you consent for R2O to collect and hold such sensitive information.</p>
+  </div>
 
-  <h2>3. How We Share Your Information</h2>
-  <table>
-    <tr><th>Recipient</th><th>Purpose</th></tr>
-    <tr><td>Payment gateways (AYA Pay, CTZPay, OK$, Wave Money)</td><td>To process the payments you initiate</td></tr>
-    <tr><td>Firebase / Google (Cloud Messaging, Crashlytics)</td><td>To deliver push notifications and diagnose app crashes</td></tr>
-    <tr><td>R2O's core lending/loan management system</td><td>To manage your contract, schedule, and account status</td></tr>
-    <tr><td>Customer support platform</td><td>To provide AI-assisted and human customer support</td></tr>
-    <tr><td>Legal/regulatory authorities</td><td>Where required by law, court order, or to protect our legal rights</td></tr>
-  </table>
-  <p>We do not sell your personal information to third parties, and we do not share your data with
-  advertisers for third-party advertising purposes.</p>
+  <div class="card">
+    <h2 id="electronic-collection">4. Electronic Collection</h2>
+    <p>R2O will collect information from the client electronically, for instance through internet browsing, mobile or tablet applications, as well as physically. (See "How Our Mobile App Collects Information" below for the specific data our app collects.)</p>
+    <p>R2O may use a technology called 'cookies' to provide the client with better and more customised service and with a more effective website and mobile application. A 'cookie' is a small text file placed on the client computer by R2O web page server. A cookie can later be retrieved by R2O webpage servers. Cookies are frequently used on websites and the client can choose if and how a cookie will be accepted by configuring the client preferences and options in the internet browser.</p>
+    <p>R2O or its service providers use cookies for different purposes such as:</p>
+    <ul>
+      <li>To allocate a unique number to the client internet browsers;</li>
+      <li>To customise R2O website for the client;</li>
+      <li>For statistical and/or behavioural analysis purposes;</li>
+      <li>To identify if the client has accessed a third-party website; and</li>
+      <li>For security purposes.</li>
+    </ul>
+    <p>In certain circumstances, data collected from use of cookies, pixels, click redirects and tag containers may reasonably identify the client and/or potentially constitute personal or sensitive information. By using R2O website or service, the client consent to use of cookies, pixels, click redirects and/or tag containers and the data collected or disclosed, including to overseas entities.</p>
+  </div>
 
-  <h2>4. Data Retention</h2>
-  <p>We retain your personal and contract information for as long as your account is active and for a
-  reasonable period afterward, as needed to comply with our legal, accounting, and regulatory obligations,
-  resolve disputes, and enforce our agreements.</p>
+  <div class="card">
+    <h2 id="purposes">5. Purposes of Collection of Personal Information</h2>
+    <p>R2O collect the client personal and credit related information so R2O can:</p>
+    <ul>
+      <li>Identify the client and conduct appropriate checks on the client and/or any security;</li>
+      <li>Understand the client requirements and provide the client with a product or service;</li>
+      <li>Set up, administer and manage our products or services, including the management and administration of underwriting, and obtaining loan or lease assessments and credit reports;</li>
+      <li>Assess the client eligibility to be provided with products or services and to manage the services R2O provide to the client;</li>
+      <li>Manage, train and develop R2O employees and representatives, and providing continuing employment (in relation to the employees only);</li>
+      <li>Managing relationship with the client, including debt collection and litigation;</li>
+      <li>Manage complaints and disputes, and report to regulatory authorities and dispute resolution bodies;</li>
+      <li>Performing research and statistical analysis, including for customer satisfaction and product and service improvement purposes. This may include matching information R2O collects against other information held by third parties. (R2O may also use and disclose de-identified data for these purposes);</li>
+      <li>Helping R2O tailor existing or develop new products, services or offers which may be offered to the client, and to help R2O selectively target promotional offers and opportunities to the client needs;</li>
+      <li>Developing or seeking to deliver new ranges of products or services; and</li>
+      <li>Search and register security interests on registers in the Republic of the Union of Myanmar, such as the Directorate of Investment and Company Administration (DICA).</li>
+    </ul>
+    <p>The client shall only provide with R2O accurate or correct information or omit to provide R2O with information as R2O may not be able to provide the client with R2O services.</p>
+    <p>Where reasonable and practical R2O will collect the client's personal information directly. R2O may also collect the client's personal information from credit reporting bodies, the client bank account providers, our service providers, other credit providers, lead generation businesses, access seekers, finance brokers and third-party social media platforms such as Facebook.</p>
+    <p>R2O also collects information when the client interacts with the R2O website. For more information, please see R2O website terms of use.</p>
+  </div>
 
-  <h2>5. Data Security</h2>
-  <p>We use industry-standard measures to protect your information, including encrypted network
-  communication (HTTPS), secure on-device storage for sensitive data (via encrypted local storage), and
-  access controls on our backend systems. However, no method of transmission or storage is 100% secure,
-  and we cannot guarantee absolute security.</p>
+  <div class="card">
+    <h2 id="disclosure">6. Disclosure of Information</h2>
+    <p>R2O may disclose the client personal information to third party service providers that the company contract with to perform certain functions on our behalf such as:</p>
+    <ul>
+      <li>Debt collection services;</li>
+      <li>Any related bodies corporate and/or associates (e.g. credit committee); and</li>
+      <li>Database providers who collect (sometimes through the use of first-party cookies, third-party cookies or other third-party identifiers), hold, use and disclose information in order to assist with identity verification, credit scoring and credit reporting bodies, debt collectors and lead providers.</li>
+    </ul>
+    <p>R2O may also disclose the client information to:</p>
+    <ul>
+      <li>Any of R2O related bodies corporate and/or associates;</li>
+      <li>Direct marketers (that is, associated businesses that may want to market products or services to the client). If the client does not wish to receive marketing information, the client may at any time decline to receive such information by contacting R2O in any of the ways listed at the end of this policy. If the direct marketing is by email the client may also use the unsubscribe function;</li>
+      <li>Anyone who represents the client or anyone to whom the client have consented to the information being disclosed;</li>
+      <li>Investors, financiers, banks, agents or advisors or any entity that has an interest in, or is considering acquiring an interest in, R2O business or the client contract;</li>
+      <li>Where R2O are required or permitted to do so by law, such as under the Anti-Money Laundering Law 2014 and Regulations, the Law Protecting the Privacy and Security of Citizens 2017, and/or the Financial Institutions Law 2016 and applicable Regulations;</li>
+      <li>Companies that provide information and infrastructure systems to us;</li>
+      <li>Lead generation businesses and other credit providers. R2O may exchange or sell the client information (including personal information and credit-related information) to third party lead generation companies or other credit providers who may use that information for any of the purposes for which R2O can use it. That information may also be disclosed to agents, contractors or advisors of the lead generation business or other credit provider;</li>
+      <li>Online third-party messenger applications, such as Facebook messenger, for the purposes of contacting the client;</li>
+      <li>Social media platforms, such as Facebook, for marketing related purposes;</li>
+      <li>Third parties that assist to enhance R2O business performance and/or the scope and quality of our services to the client, such as website behaviour analysis providers, and interest data / remarketing / network impression reporting providers;</li>
+      <li>Customer, product, business or strategic research and development organisations;</li>
+      <li>Administration or business management services, consultancy firms, auditors and business management consultants;</li>
+      <li>Print/mail/digital service providers;</li>
+      <li>Imaging and document management service;</li>
+      <li>Search engine optimisation service providers;</li>
+      <li>Credit reporting agencies; and</li>
+      <li>The client's employer, referees or identity verification services.</li>
+    </ul>
+    <p>The abovementioned recipients may be located overseas and may store the client's personal information outside of the Republic of the Union of Myanmar, including in the USA, the European Union and Singapore.</p>
+    <p>R2O may use cloud storage to store the personal information the company holds about the client. The cloud storage and the IT servers may be located in or outside the Republic of the Union of Myanmar.</p>
+  </div>
 
-  <h2>6. Your Rights and Choices</h2>
-  <ul>
-    <li>You may review and update certain personal information from the Profile section of the App.</li>
-    <li>You may enable or disable biometric login and push notifications from the App's Settings.</li>
-    <li>You may request access to, correction of, or deletion of your personal information by contacting us
-    using the details below, subject to our legal and contractual obligations (for example, we may need to
-    retain contract and payment records while a contract is active).</li>
-  </ul>
+  <div class="card">
+    <h2 id="testimonials">7. Testimonials</h2>
+    <p>R2O may publish testimonials, comments or feedback the client provides to R2O on the website, which may contain personal information such as the client's first name and suburb. If the client wants to remove the personal information that is being displayed on the R2O website, please send a request to R2O at the contact details below.</p>
+  </div>
 
-  <h2>7. Children's Privacy</h2>
-  <p>The App is intended for use by individuals who are at least 18 years old and legally able to enter into
-  a hire-purchase agreement. We do not knowingly collect personal information from children.</p>
+  <div class="card">
+    <h2 id="credit-info">8. Credit-Related Information</h2>
+    <p>R2O may collect and hold credit-related information and exchange this information with credit reporting bodies and other entities.</p>
+    <p>This credit-related information may be held by R2O in electronic form on our IT servers and may also be held in paper form. R2O may use cloud storage to store the credit-related information about the client and the IT servers may be located in or outside the Republic of the Union of Myanmar.</p>
+    <p>When R2O obtains credit eligibility information from a credit reporting body about the client, R2O may also seek publicly available information and information about any serious credit infringement that the client may have committed. R2O may disclose the client credit-related information to entities that provide support functions to R2O. These entities may be located overseas, including in the USA, the European Union and Singapore.</p>
+  </div>
 
-  <h2>8. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of material changes through
-  the App or by updating the "Last updated" date above. Continued use of the App after changes take effect
-  constitutes acceptance of the revised policy.</p>
+  <div class="card">
+    <h2 id="credit-bodies">9. Credit Reporting Bodies</h2>
+    <p>The client credit-related information may be exchanged with credit reporting bodies. Credit reporting bodies include credit-related information in reports to assist credit providers assess the client credit worthiness, assess the client application for products or services and to manage the client services.</p>
+    <p>If the client fails to meet payment obligations in relation to any product or service that R2O has provided or the client has committed a serious financial infringement, then R2O may disclose this information to a credit reporting body.</p>
+    <p>Sometimes the client credit-related information will be used by credit reporting bodies for the purposes of 'pre-screening' credit offers on the request of other credit providers. The client should contact the credit reporting body to advise them if the client believes that the client may have been a victim of fraud.</p>
+  </div>
 
-  <h2>9. Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy or how we handle your information, please contact
-  us at:</p>
-  <p>
-    <strong>Rent 2 Own (R2O)</strong><br>
-    Email: <a href="mailto:johnny@r2omm.com">johnny@r2omm.com</a><br>
-    In-app: Profile → Support Chat
-  </p>
+  <div class="card">
+    <h2 id="app-data">10. How Our Mobile App Collects Information</h2>
+    <p>This section describes specifically what the R2O Client App (Android/iOS) collects from you, in addition to the general practices described above.</p>
 
-  <footer>© 2026 Rent 2 Own. All rights reserved.</footer>
+    <h3>Identity &amp; Account Information</h3>
+    <ul>
+      <li><strong>Full name</strong> — collected at signup, required.</li>
+      <li><strong>Phone number</strong> — used as your login identifier, required.</li>
+      <li><strong>NRC number</strong> — entered by you at signup, required.</li>
+      <li><strong>NRC photo</strong> — a photo of your physical NRC card, required, taken directly via the camera (no gallery upload).</li>
+      <li><strong>Selfie photo</strong> — used to verify your identity, required, taken directly via the camera (no gallery upload).</li>
+      <li><strong>PIN</strong> — your 6-digit login PIN, stored in encrypted (hashed) form — never stored or transmitted as plain text.</li>
+    </ul>
+
+    <h3>Contract &amp; Financial Information</h3>
+    <ul>
+      <li><strong>Contract details</strong> — the item financed, your installment schedule, amounts, and contract status.</li>
+      <li><strong>Payment history</strong> — a record of your past installment payments (amount, date, status, payment method used).</li>
+      <li><strong>Payment account phone number</strong> — for OK$ and AYA Pay, the phone number registered with that payment provider is passed through our systems to initiate your transaction. We do not collect or store card numbers, gateway PINs, or full payment account credentials — those are handled directly by the payment provider (AYA Pay, OK$, CTZPay, Wave Money).</li>
+    </ul>
+
+    <h3>Device &amp; Technical Information</h3>
+    <ul>
+      <li><strong>Device information</strong> — device model, manufacturer, operating system type/version, and app version.</li>
+      <li><strong>Device identifier</strong> — a unique installation ID generated when you first install the app.</li>
+      <li><strong>Push notification token</strong> — used to deliver payment reminders and app notifications to your device.</li>
+      <li><strong>IP address</strong> — captured automatically by our servers as part of standard request handling.</li>
+    </ul>
+
+    <h3>Support &amp; User-Generated Content</h3>
+    <ul>
+      <li><strong>In-app chat messages</strong> — messages you send to our AI assistant or a live support agent.</li>
+      <li><strong>Service ratings/feedback</strong> — an optional rating you may submit after certain contract milestones (e.g. confirming receipt of your item).</li>
+    </ul>
+
+    <h3>App Activity</h3>
+    <ul>
+      <li><strong>Notification read status</strong> — which notifications you have viewed, used to show unread badges.</li>
+      <li><strong>In-app promotion interactions</strong> — whether a promotional banner was viewed, tapped, or dismissed, used for internal campaign reporting.</li>
+    </ul>
+
+    <h3>What Our App Does Not Collect</h3>
+    <ul>
+      <li>Email address (not used anywhere in the app)</li>
+      <li>Contacts</li>
+      <li>Calendar</li>
+      <li>Microphone / audio recordings</li>
+      <li>Precise real-time location shared with other users</li>
+      <li>Advertising identifiers</li>
+    </ul>
+
+    <h3>App Data Shared With Third Parties</h3>
+    <ul>
+      <li>Payment gateways (AYA Pay, OK$, CTZPay, Wave Money) — to process payments you initiate.</li>
+      <li>Firebase / Google Cloud Messaging — to deliver push notifications.</li>
+      <li>R2O's own backend systems — to manage your contract and account.</li>
+    </ul>
+    <p>We do not sell your data through the app, and we do not share app data with third parties for advertising purposes.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="security">11. Security of Information</h2>
+    <p>R2O will take reasonable steps to protect the client's personal information by storing it in a secure environment. R2O may store the client's personal information in paper and electronic form. R2O will also take reasonable steps to protect any personal information from misuse, loss and unauthorised access, modification or disclosure.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="updating">12. Updating Your Personal Information</h2>
+    <p>It is important to the company that the personal information held about the client is accurate and up to date. During the course of the relationship with the client, R2O may ask the client to inform if any of the personal information has changed.</p>
+    <p>If the client wishes to make any changes to personal information, the client may contact R2O and R2O will generally rely on the client to ensure the information held about the client is accurate or complete.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="access">13. Access and Correction to Your Information</h2>
+    <p>R2O will provide the client with access to the personal information that the company holds about the client. The client may request access to any of the personal information that the company holds about the client at that time by contacting R2O on the details provided below.</p>
+    <p>Depending on the type of request that the client makes, R2O may respond to the client request immediately, otherwise R2O usually responds within 7 days of receiving the client request. R2O may need to contact other entities to properly investigate the request.</p>
+    <p>There may be situations where R2O are not required to provide the client with access to the client personal information, for example, if the information relates to existing or anticipated legal proceedings, or if the client request is frivolous. An explanation will be provided to the client, if R2O denies access to the personal and financial information that R2O holds about.</p>
+    <p>If any of the personal information that R2O holds about the client is incorrect, inaccurate or out of date, the client may request to correct the information by contacting in any of the ways listed at the end of this policy. If R2O refuses to correct personal information, the client will be provided with the reasons for not correcting the information.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="gov-id">14. Using Government Identifiers</h2>
+    <p>If R2O collects government identifiers, such as the client NRC number or passport number or driver's licence number, R2O does not use or disclose this information other than as required or permitted by law. R2O may use government identifiers to verify the identity when the client deals with the company.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="anonymous">15. Business Without Identifying You</h2>
+    <p>In most circumstances, it will be necessary for R2O to identify the client in order to successfully do business, including answering general inquiries about the company product or services or current promotional offers, however depending on the circumstances R2O may in some instances do business with the client without providing personal information. However, the extent of the information and services that the company may be able to provide will be limited.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="complaints">16. Complaints</h2>
+    <p>If the client is dissatisfied with how the company has dealt with the personal information, or the client has a complaint, the client can contact the company complaints channels in any of the ways listed at the end of this policy.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="further-info">17. Further Information</h2>
+    <p>The client may request further information or provide feedback on the way the company manages the client's personal and financial (including credit-related) information by contacting us.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="changes">18. Changes to Our Privacy Policy</h2>
+    <p>R2O may change this policy from time to time. Any updated versions of this policy will be posted on the website and will be effective from the date of posting.</p>
+  </div>
+
+  <div class="card">
+    <h2 id="employee-action">19. Action Taken to the Employee</h2>
+    <p>In response to data privacy concerns and to safeguard client information, R2O has implemented strict action protocols for employees found to be abusing or mishandling client data. These measurements include rigorous internal investigations, immediate suspension pending investigations and if necessary termination of employment by following HR policy. Additionally, the company continuously educates the staff on data privacy best practices and enforce regular reviews of the company data security policies to ensure a safe and confidential environment for the clients' sensitive information, and also whistleblower mechanism and regular security assessment is in practice.</p>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>20. Contact Details</h2>
+    <p>For privacy related queries, complaints or any other requests, you can contact us using any of the following methods:</p>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="label">Email</div>
+        <div class="value"><a href="mailto:info@rent2own.com.mm">info@rent2own.com.mm</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="label">Customer Service Hotline (Channel 9)</div>
+        <div class="value">(+95) 9699 919 993<br>(+95) 9765 433 822</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">Viber</div>
+        <div class="value"><a href="https://chats.viber.com/rent2ownmm" target="_blank" rel="noopener">chats.viber.com/rent2ownmm</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="label">Branch Office Complaint Form</div>
+        <div class="value"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc3moIcHVBFyEJMNxtba3yv9XEbFtu9CccPzbcJCJ4GZh4_LQ/viewform" target="_blank" rel="noopener">Open form</a></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Rent 2 Own (Myanmar) Company Limited · Legal and ESG Department
+    <div class="back-top"><a href="#top">Back to top</a></div>
+  </footer>
+
 </div>
 </body>
 </html>
